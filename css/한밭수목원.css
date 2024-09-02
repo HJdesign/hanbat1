@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+ul,ol {
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* ---------------- Header ----------------- */
+
+header {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+}
+
+header .inner {
+    width: 1180px;
+    height: 120px;
+    margin: 0 auto;
+    position: relative;
+}
+
+header .inner img{ position: absolute; 
+    left:0;
+    bottom: 15px}
+
+header h1 {
+    position: absolute;
+    left: 60px;
+    bottom: 18px;
+}
+
+header h1 a {
+    /* font-family: Arial;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 100%; */
+    font: arial bold 24px/1;
+    color: #343434;
+}
+
+header .util {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+}
+
+header .util li {
+    float: left;
+}
+
+header .util li a {
+    font: arial 12px/1;
+    color: #999;
+    padding: 0 10px;
+
+}
+
+header #gnb {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+header #gnb li {
+    float: left;
+}
+
+header #gnb li a {
+    font: arial bolder 15px/1;
+    padding: 20px 40px;
+    display: block;
+    color: #555;
+    transition: 0.5s;
+}
+
+header #gnb li a:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+header .flower{
+    width: 1180px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* ================회원가입======================== */
+.wrap h2{text-align: center;}
+
+.wrap{
+    position: relative;
+    width: 500px;
+    height: 1150px;
+    border: 10px solid #333;
+    border-radius: 10px;
+    margin: 50px auto;
+    padding-left: 50px;
+    padding-top: 30px;
+    border-collapse: collapse;
+}
+
+input{
+    background-color: rgb(216, 216, 216);
+    border: none;
+    border-radius: 3px;
+    padding: 6px 20px;
+    color: rgb(6, 0, 35);
+}
+
+.tt{
+    width: 365px;
+}
+
+input:focus{background-color: rgb(255, 218, 149);
+    /* border: none; 보더가 아니라 아웃라인 */
+    outline: none;
+}
+
+select{
+    background-color:  rgb(216, 216, 216);
+    color: rgb(38, 38, 38);
+}
+
+button{
+    background-color:  rgb(216, 216, 216);
+    border: 1px solid;
+    padding: 3px 3px;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px -1px;
+}
+
+button:hover{
+    background-color: rgb(252, 180, 180);
+}
+
+.bt{position: absolute;
+    left: 170px;
+    bottom: 45px;
+}
+
+/* 줄간격 바꿔보려는데 안바뀜
+.zz{
+    font: 16px/1.5
+} */
+
+
+/* ---------------- Footer ----------------- */
+
+footer{
+    width: 100%;
+    background-color: #333;
+    padding: 100px 0;
+}
+
+footer .inner {
+    width: 1180px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+
+footer .upper {
+    width: 100%;
+    border-bottom: 1px solid #777;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+footer .upper img{
+    position: absolute;
+    left: 0px;
+    bottom: 7px;
+}
+
+footer .upper::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+footer .upper h1 {
+    float: left;
+    font: bold 24px/1 arial;
+    color: #666;
+    position: absolute;
+    left: 56px;
+    bottom: 17px;
+
+}
+
+footer .upper ul {
+    float: right;
+}
+
+footer .upper ul li {
+    float: left;
+    margin-left:20px;
+}
+
+footer .upper ul li a{
+    font: bold 14px/1 arial;
+    color: #666;
+}
+
+footer .lower {
+    width: 100%;
+    padding-top: 20px;
+}
+
+footer .lower address {
+    width: 100%;
+    font: 12px/1.3 arial;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+footer .lower p {
+    width: 100%;
+    font: 12px/1 arial;
+    color: #777;
+}
