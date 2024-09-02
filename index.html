@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>한밭수목원 회원가입</title>
+    <link rel="stylesheet" href="css/한밭수목원.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- ===================== header ======== -->
+    <header>
+        <div class="inner">
+            <img src="img/logo1.png" alt="로고">
+            <h1> <a href="#"> 한밭수목원</a></h1>
+
+            <ul id="gnb">
+                <li><a href="#">관람안내</a></li>
+                <li><a href="#">둘러보기</a></li>
+                <li><a href="#">나무병원</a></li>
+                <li><a href="#">열린마당</a></li>
+                <li><a href="#">기관안내</a></li>
+            </ul>
+
+            <ul class="util">
+                <li><a href="#">홈</a></li>
+                <li><a href="#">로그인</a></li>
+                <li><a href="#">사이트맵</a></li>
+            </ul>
+        </div>
+        <div class="flower"><img src="img/flower.png" alt="꽃사진"></div>
+    </header>
+
+    <!-- ==================== 회원가입 ================== -->
+    <form action="post">
+        <div class="wrap">
+            <tr>
+                <br>
+                <h2>
+                    <colspan="1">회원가입&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </h2>
+            </tr><br><br><br>
+            <tr class="zz">아이디</tr><br>
+            <tr><input class="tt" type="text" placeholder="아이디 입력(6~20자)"/> </button></tr> <br><br>
+            <tr class="zz">비밀번호 </tr> <br>
+            <tr> <input class="tt" type="password" placeholder="영문, 숫자, 특수문자 8~16자"/></tr> <br><br>
+            <tr class="zz">비밀번호 확인 </tr> <br>
+            <tr> <input class="tt" type="password" placeholder="비밀번호를 다시 입력하세요"/></tr> <br><br>
+            <tr class="zz">이름</tr> <br>
+            <tr><input class="tt" type="text" placeholder="이름을 입력해주세요"/></tr> <br><br>
+            <tr class="zz">전화번호</tr> <br>
+            <tr><input class="tt" type="text" placeholder="전화번호를 입력하세요('-'제외)"/></td> <br><br>
+            <tr class="zz">생년월일</tr> <br>
+            <tr><input class="tt" type="text" placeholder="YYYYMMDD"/></td> <br><br>
+            <tr class="zz">성별</tr> <br>
+            <input type="radio" name="gender">&nbsp;남자 &nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="gender">&nbsp;여자</tr> <br><br>
+            <tr class="zz">이메일 주소</tr> <br>
+            <tr><input type="text" placeholder="이메일 주소"/></td> @
+            <tr>
+                <select>
+                    <option value="a">=====선택=====</option>
+                    <option value="b">naver.com</option>
+                    <option value="c">gmail.com</option>
+                    <option value="d">hanmail.net</option>
+                    <option value="e">nate.com</option>
+                </select>
+                <br><br>
+            <tr class="zz"> 방문 이유 </tr> <br>
+            <tr><input type="checkbox" name="" id=""> 휴식·여가 
+                <input type="checkbox" name="" id=""> 교육·연구 
+                <input type="checkbox" name="" id=""> 여행·관광 
+                <input type="checkbox" name="" id=""> 모임·단체 
+                <input type="checkbox" name="" id=""> 기타
+            </tr><br><br>
+            <tr class="zz">한밭수목원에 바라는 점</tr> <br>
+            <tr><textarea name="memo" id="memo" cols="51" rows="4" placeholder="한밭수목원에 바라는 점을 자유롭게 입력해주세요"></textarea></tr>
+            </tr><br><br>
+            <tr><div class="bt"><button type="submit">가입하기</button> &nbsp; &nbsp; &nbsp; &nbsp; <button type="reset">초기화</button></div></tr>
+        </div>
+    </form>
+
+    <!-- ===================== footer ======== -->
+    <footer>
+        <div class="inner">
+            <div class="upper">
+                <img src="img/logo2.png" alt="풋터 로고">
+                <h1>한밭수목원</h1>
+                <ul>
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">영상정보처리기기 운영·관리방침</a></li>
+                    <li><a href="#">누리집 개선의견</a></li>
+                    <li><a href="#">대전광역시청</a></li>
+                </ul>
+            </div>
+
+            <div class="lower">
+                <address>(35204) 대전광역시 서구 둔산대로 169 / 대표전화 (042) 270-8452~3, 팩스번호 (042) 270-8456 
+                </address>
+                <p> 한밭수목원 &copy; DAEJEON METROPOLITAN CITY. ALL RIGHTS RESERVED.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
